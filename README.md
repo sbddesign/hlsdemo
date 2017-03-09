@@ -1,7 +1,7 @@
 # hlsdemo
 A web page to demonstrate HLS video playback.
 
-This uses MediaElemet.js, which utilizes hls.js to enable playback of M3U8 files. More in-depth info about these projects:
+This uses MediaElement.js, which utilizes hls.js to enable playback of M3U8 files. More in-depth info about these projects:
 [Media Element repo](https://github.com/johndyer/mediaelement)
 [HLS.js rep] (https://github.com/dailymotion/hls.js)
 
