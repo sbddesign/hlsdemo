@@ -7,7 +7,6 @@ This utilizes hls.js to enable playback of M3U8 files. More in-depth info about 
 
 In scripts.js, change the `var hls_source` to reflect the URL of your M3U8 file.
 
-
 ##BrowserSync
 
 This is optional, but sometimes it's a good idea to use aBrowserSync while working to prevent Javascript errors caused by cross domain references.
