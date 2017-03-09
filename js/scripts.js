@@ -1,6 +1,6 @@
 //Wrapping everything in this so that it executes when the page is finished loading
 $( document ).ready(function() {
-
+    
 	//This is the HLS source (M3U* file) that you wish to load
 	var hls_source = 'http://www.streambox.fr/playlists/test_001/stream.m3u8';
 
