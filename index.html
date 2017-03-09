@@ -6,11 +6,12 @@
 		<title>HLS Video Playback Demonstration</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="css/style.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 		<link href="https://cdn.jsdelivr.net/mediaelement/latest/mediaelementplayer.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/mediaelement/latest/mediaelement-and-player.min.js"></script>
+
+		<link rel="stylesheet" href="css/style.css" />
 
 	</head>
 	<body>
@@ -23,8 +24,7 @@
 			<h1>HLS Video Review Page</h1>
 
 			<!-- This video tag will be taken over by MediaElement.js -->
-			<video id="video" class="mejs__player" controls width="1920" height="720" style="height:100%; width:100%;">
-				<!--<source type="video/mp4" src="rockstar.mp4" />-->
+			<video id="video" class="mejs__player" controls width="1920" height="720" style="height:100%; width:100%;" poster="img/poster.png">
 				<source type="application/x-mpegURL" src="http://www.streambox.fr/playlists/test_001/stream.m3u8" />
 			</video>
 
@@ -32,6 +32,6 @@
 			<p>Please submit any technical issus to <a href="mailto:person@company.com">person@company.com</a></p>
 
 		</div>
-	
+
 	</body>
 </html>
